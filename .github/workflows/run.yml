@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
-
+env:
+  email: ${{ secrets.MDB_EMAIL }}
+  pwd: ${{ secrets.MDB_PWD }}
+  model: ${{ secrets.MODEL_NAME }}
+  
 jobs:
   build:
     runs-on: ubuntu-latest
