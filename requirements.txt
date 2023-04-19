@@ -1,5 +1,5 @@
 docx2txt
 pdfplumber
 mindsdb-sdk
-stremlit
+streamlit
 pandas
