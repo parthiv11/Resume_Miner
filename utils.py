@@ -2,11 +2,12 @@ import pdfplumber as pp
 import mindsdb_sdk as mdb
 import pandas as pd
 import docx2txt
+import os
 
 
-MDB_EMAIL=""
-MDB_PWD=""
-MODEL_NAME=""
+MDB_EMAIL=os.environ['email']
+MDB_PWD=os.environ['pwd']
+MODEL_NAME=os.environ['model']
 
 
 
