@@ -22,6 +22,13 @@ USING
 ```
 * Run the query to create a new model in MindsDB with whatever name you have given in the query. :rocket:
 
+## Clone Repo And use it
+* Clone resume_miner repo using below command
+```git
+git clone https://github.com/parthiv11/Resume_Miner.git
+```
+
+
 * In the utils.py file, add the MindsDB email, password, and model name to the variables provided.
 ```python
 # EXAMPLE 
